@@ -14,7 +14,7 @@ interface intf (
   endclocking
 
   modport dut(input enable, read, addr, output data);
-  modport tb(clocking cb); // because by default we use clocking in testbench only
+  modport tb(clocking cb);  // because by default we use clocking in testbench only
 
 
 
