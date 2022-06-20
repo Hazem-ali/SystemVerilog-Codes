@@ -16,7 +16,7 @@ program test;
     y = new();
     for (int i = 0; i < 10; ++i) begin
       assert (y.randomize())
-      else $display("LOL");
+      else $display("assertion failed");
       $display("r = %0d, s = %0d, t = %0d", y.r, y.s, y.t);
     end
   end
